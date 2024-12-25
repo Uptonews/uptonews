@@ -2,4 +2,4 @@ streamlit
 newspaper3k
 nltk
 transformers
-lxml
+lxml[html_clean]
