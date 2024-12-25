@@ -1,7 +1,7 @@
 import streamlit as st
 import nltk
 from nltk.tokenize import sent_tokenize
-from newspaper3k import Article
+from newspaper import Article
 from transformers import pipeline
 
 # Download NLTK data (if not already done)
