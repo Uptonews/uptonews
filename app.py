@@ -4,8 +4,9 @@ from nltk.tokenize import sent_tokenize
 from newspaper import Article
 from transformers import pipeline
 
-# Download NLTK data (if not already done)
+# Make sure we download BOTH "punkt" and "punkt_tab" just in case
 nltk.download('punkt')
+nltk.download('punkt_tab')
 
 st.title("Speculation vs. Fact Classifier")
 
