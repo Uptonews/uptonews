@@ -3,4 +3,4 @@ newspaper3k
 nltk
 transformers
 lxml[html_clean]
-tensorflow
+torch
